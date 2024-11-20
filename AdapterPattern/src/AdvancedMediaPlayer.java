@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+//Adaptee interface defining the advanced playback features
 
-public class AdvancedMediaPlayer {
+public interface AdvancedMediaPlayer {
+    void playVlc(String filename);
+    void playMp4(String filename);
 }
